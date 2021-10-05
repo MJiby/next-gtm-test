@@ -12,11 +12,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main className={styles.main}>
-        <Link href="/second">
-          <a>두번째 페이지 22</a>
-        </Link>
+        <div style={{ width: '100%' }}>
+          <Link href="/second">
+            <a>두번째 페이지 22</a>
+          </Link>
+
+
+        </div>
       </main>
+
     </div>
   )
 }
